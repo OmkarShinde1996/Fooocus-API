@@ -13,7 +13,7 @@ def add_base_args(parser: ArgumentParser, before_prepared: bool):
     Returns:
     """
     if before_prepared:
-        parser.add_argument("--port", type=int, default=8888, help="Set the listen port, default: 8888")
+        parser.add_argument("--port", type=int, default=8188, help="Set the listen port, default: 8188")
 
     parser.add_argument("--host", type=str, default='localhost', help="Set the listen host, default: localhost")
     parser.add_argument("--base-url", type=str, default=None, help="Set base url for outside visit, default is http://host:port")
